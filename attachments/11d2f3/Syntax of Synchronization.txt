@@ -1,0 +1,54 @@
+Syntax of Synchronization	
+*************************
+
+	//synchronized method
+	class abc
+	{
+		synchronized public void fun1()
+		{
+			statement1
+			statement2
+			statement3
+			statement4
+			statement5
+			statement6
+		}
+	}
+
+
+	//partial synchronized block
+	class xyz
+	{
+		public void fun2()
+		{
+			statement1
+			statement2
+			
+			synchronized(this)
+			{
+				statement3
+				statement4
+				statement5
+			}
+
+			statement6
+		}
+	}
+
+	
+	//fully synchronized block
+	class mno
+	{
+		public void fun3()
+		{
+			synchronized(this)
+			{
+				statement1
+				statement2
+				statement3
+				statement4
+				statement5
+				statement6
+			}
+		}
+	}

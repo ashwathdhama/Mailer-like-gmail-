@@ -1,0 +1,22 @@
+
+
+			C	-->		C++	-->		Java
+
+***********************************************************************************
+
+Security		Nil			Partial			Fully
+
+***********************************************************************************
+
+Memory Management	Compile Time		Compile Time		Run Time
+			Static			Static			Dynamic
+			
+			int a[5]		int a[5]		int a[]
+
+***********************************************************************************
+
+Operating System	Dependent		Dependent		Independent
+
+***********************************************************************************
+
+Type Casting		Manual			Manual			Manual

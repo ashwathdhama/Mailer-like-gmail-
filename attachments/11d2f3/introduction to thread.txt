@@ -1,0 +1,32 @@
+class akash extends Thread
+{
+	public void run();
+	public void start();
+	public void stop();
+	public static void sleep() throws InterruptedException;
+	public void yield();
+	public void suspend();
+	public void resume();
+	public void wait();		-->Object Class
+	public void notify();		-->Object Class
+	public void notifyAll();	-->Object Class
+	public void setName(String);
+	public String getName();
+	public void setPriority(int);
+	public int getPriority();
+	public void join()throws InterruptedException;
+	public boolean isAlive();
+	public Thread currentThread();
+}
+
+akash aa = new akash();
+
+new born state		--->	start() stop()
+
+runnable state		--->	run() yield() setPriority() setName() stop()		
+
+running state		--->	sleep(60000) suspend() wait() getName() getPriority() join() isAlive() currentThread() stop()
+
+blocked state		--->	resume() notify() notifyAll() stop()
+
+death state		--->	stop()

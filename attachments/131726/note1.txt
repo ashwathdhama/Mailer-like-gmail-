@@ -1,0 +1,24 @@
+
+	elements marked with * belongs to Java
+
+
+				Java
+				****
+	
+	Language			Programming		Translator
+	********			***********		**********
+
+	1) *High Level Language		1) Structure Based	1) *Compiler
+
+	2) Middle Level Language	2) Object Based		2) *Interpreter
+
+	3) Low Level Language		3) *Object Oriented	3) Assembler
+
+	
+	Note1:- java is pure high level language
+
+	Note2:- java is nearly object oriented
+		(zis language me primitive data type and object dono use hote hai)
+
+	Note3:- zis language me class and object use hote hai woh pure object oriented
+		language hoti hai

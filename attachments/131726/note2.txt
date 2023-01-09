@@ -1,0 +1,14 @@
+
+		
+			Programming
+			***********
+
+		Structure Based		Object Based		Object Oriented
+		***************		************		***************
+
+		C			JavaScript / JSP	C++/Java/C#/Python
+
+
+Class		no			no			yes
+
+Object		no			yes			yes
