@@ -53,6 +53,6 @@ public class SendSMS
 
 	//public static void main(String args[])
 	//{
-		//SendSMS.sendSMS("Reminder:- please come and check your project Career Computer","9997744879");	
+			
 	//}
 }
